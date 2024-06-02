@@ -10,7 +10,7 @@ const port = process.env.PORT || 3001;
 
 const io = new Server(server, {
     cors: {
-        origin: "trainaim.netlify.app",
+        origin: "https://trainaim.netlify.app",
         methods: ["GET", "POST", "PUT", "DELETE"],
     },
 });
